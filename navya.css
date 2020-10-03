@@ -1,0 +1,138 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 16px;
+}
+
+/*nav*/
+
+.navbar a:hover{
+
+}
+h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  h1 { font-size: 3em; }
+  h2 {
+    color:black;
+    font-size: 20px;
+      font-family: Palatino Linotype;
+  }
+  /* end of type */
+  /* blinking */
+  .blinking{
+    animation:blinkingText .7s infinite;
+      
+}
+@keyframes blinkingText{
+    0%{     color: #3366ff;    }
+    49%{    color: #3366ff; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #3366ff;    }
+}
+ /* e */
+ /* image grid */
+
+ div.gallery {
+    margin: 2px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    transform: scale(1.1);
+    transition: .8s ease;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  /* end of grid */
+  /* start of corosal */
+
+  .col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	padding: 0 70px;
+}
+.carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 290px;
+}
+.carousel .carousel-item .img-box {
+	width: 155px;
+	height: 145px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+.carousel-control-prev, .carousel-control-next {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	top: 50%;
+	background: none;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 68px;
+	line-height: 42px;
+	position: absolute;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 12px;
+	height: 12px;
+	margin: 1px 3px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+/* end */
